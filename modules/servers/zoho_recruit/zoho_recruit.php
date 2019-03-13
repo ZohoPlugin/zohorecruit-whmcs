@@ -51,7 +51,7 @@ function zoho_recruit_ConfigOptions()
          // the radio field type displays a series of radio button options
         'Domain' => array(
             'Type' => 'radio',
-            'Options' => 'com,eu,in,cn',
+            'Options' => 'com,eu,cn,in',
             'Description' => 'Choose your domain!',
         ),
         // a text field type allows for single line text input
@@ -61,7 +61,7 @@ function zoho_recruit_ConfigOptions()
             'Description' => '<br><a href="https://accounts.zoho.com/apiauthtoken/create?SCOPE=ZohoPayments/partnerapi" target="_blank">Click here</a> to generate authtoken for US Domain. 
             <br><a href="https://accounts.zoho.eu/apiauthtoken/create?SCOPE=ZohoPayments/partnerapi" target="_blank">Click here</a> to generate authtoken for EU Domain. 
             <br><a href="https://accounts.zoho.com.cn/apiauthtoken/create?SCOPE=ZohoPayments/partnerapi" target="_blank">Click here</a> to generate authtoken for CN Domain. 
-            <br><a href="https://accounts.zoho.com.in/apiauthtoken/create?SCOPE=ZohoPayments/partnerapi" target="_blank">Click here</a> to generate authtoken for IN Domain.',
+            <br><a href="https://accounts.zoho.in/apiauthtoken/create?SCOPE=ZohoPayments/partnerapi" target="_blank">Click here</a> to generate authtoken for IN Domain.',
         ),
        
     );
