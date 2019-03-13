@@ -77,14 +77,14 @@ function zoho_recruit_CreateAccount(array $params)
 	$curl = curl_init();
 	$arrClient = $params['clientsdetails'];
 	$planid = $params['configoptions']['Plan Type'];
-	if($planid == 36129){
-	    $addonid = 36235;
+	if($planid == 36104){
+	    $addonid = 36216;
 	}
-	else if($planid == 36130) {
-	    $addonid = 36236;
+	else if($planid == 36105) {
+	    $addonid = 36217;
 	}
 	else {
-	    $addonid = 36237;
+	    $addonid = 36218;
 	}
 	$noofusers = $params['configoptions']['No. of users'];
 
